@@ -27,11 +27,7 @@ def typography(request):
     return render(request, 'fourth_umpire/typography.html', {})
 
 def about(request):
-        return render(request, 'fourth_umpire/about.html', {})
-
-def contact(request):
-    return HttpResponseRedirect('https://github.com/aasis21/4th_umpire')
-
+        return render(request, 'fourth_umpire/about.html', {}
 
 
 def first_inn(request):
